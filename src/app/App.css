@@ -1,0 +1,99 @@
+.App {
+  /* text-align: center; */
+  padding: 1rem;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/**
+ * My styles
+ */
+
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.filter-pill {
+  display: inline-block;
+  margin: 1rem;
+  padding: .8rem 1.6rem;
+  background-color: cadetblue;
+  width: auto;
+  cursor: pointer;
+}
+
+.filter-pill--active {
+  background-color: aqua;
+}
+
+.filter-options {
+  display: flex;
+  display: inline-block;
+  background-color: blueviolet;
+  box-sizing: border-box;
+}
+
+
+.list-item__title {
+  font-size: 2.4rem;
+}
+
+.list-item__subtitle {
+  color: blue;
+  font-size: 2rem;
+}
+.list-item__id {
+  font-size: 1.4rem; 
+}
+
+.list-item__data {
+  font-size: 1.6rem;
+  padding-left: 3rem;
+}
+
+.list-item {
+  margin: 1rem 0;
+  padding: .8rem 1.6rem;
+  background-color: darkred;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.search {
+  margin-bottom: 2rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.6rem
+}
